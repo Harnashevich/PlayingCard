@@ -16,6 +16,9 @@
 		9F8FF3182A5423910082CE36 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FF3172A5423910082CE36 /* PlayingCard.swift */; };
 		9F8FF31A2A5428910082CE36 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FF3192A5428910082CE36 /* PlayingCardDeck.swift */; };
 		9F8FF31C2A5429220082CE36 /* Int + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FF31B2A5429220082CE36 /* Int + Extension.swift */; };
+		9FB1E6AD2A5C15E7001FFAFF /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1E6AC2A5C15E6001FFAFF /* PlayingCardView.swift */; };
+		9FB1E6AF2A5C39E3001FFAFF /* CGRect + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1E6AE2A5C39E3001FFAFF /* CGRect + Extension.swift */; };
+		9FB1E6B12A5C3A44001FFAFF /* CGPoint + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB1E6B02A5C3A44001FFAFF /* CGPoint + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		9F8FF3172A5423910082CE36 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		9F8FF3192A5428910082CE36 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 		9F8FF31B2A5429220082CE36 /* Int + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int + Extension.swift"; sourceTree = "<group>"; };
+		9FB1E6AC2A5C15E6001FFAFF /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		9FB1E6AE2A5C39E3001FFAFF /* CGRect + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect + Extension.swift"; sourceTree = "<group>"; };
+		9FB1E6B02A5C3A44001FFAFF /* CGPoint + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +70,14 @@
 			children = (
 				9F8FF3042A5423270082CE36 /* SceneDelegate.swift */,
 				9F8FF3062A5423270082CE36 /* ViewController.swift */,
+				9FB1E6AC2A5C15E6001FFAFF /* PlayingCardView.swift */,
 				9F8FF3082A5423270082CE36 /* Main.storyboard */,
 				9F8FF30B2A5423290082CE36 /* Assets.xcassets */,
 				9F8FF3162A5423510082CE36 /* Supporting Files */,
 				9F8FF3102A5423290082CE36 /* Info.plist */,
 				9F8FF3172A5423910082CE36 /* PlayingCard.swift */,
 				9F8FF3192A5428910082CE36 /* PlayingCardDeck.swift */,
-				9F8FF31B2A5429220082CE36 /* Int + Extension.swift */,
+				9FB1E6B22A5C3B81001FFAFF /* Extensions */,
 			);
 			path = PlayingCard;
 			sourceTree = "<group>";
@@ -82,6 +89,16 @@
 				9F8FF30D2A5423290082CE36 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FB1E6B22A5C3B81001FFAFF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F8FF31B2A5429220082CE36 /* Int + Extension.swift */,
+				9FB1E6AE2A5C39E3001FFAFF /* CGRect + Extension.swift */,
+				9FB1E6B02A5C3A44001FFAFF /* CGPoint + Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +173,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8FF3072A5423270082CE36 /* ViewController.swift in Sources */,
+				9FB1E6AD2A5C15E7001FFAFF /* PlayingCardView.swift in Sources */,
 				9F8FF31C2A5429220082CE36 /* Int + Extension.swift in Sources */,
+				9FB1E6AF2A5C39E3001FFAFF /* CGRect + Extension.swift in Sources */,
 				9F8FF3032A5423270082CE36 /* AppDelegate.swift in Sources */,
 				9F8FF31A2A5428910082CE36 /* PlayingCardDeck.swift in Sources */,
 				9F8FF3182A5423910082CE36 /* PlayingCard.swift in Sources */,
 				9F8FF3052A5423270082CE36 /* SceneDelegate.swift in Sources */,
+				9FB1E6B12A5C3A44001FFAFF /* CGPoint + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
