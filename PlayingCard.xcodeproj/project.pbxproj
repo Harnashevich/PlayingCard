@@ -69,14 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				9F8FF3042A5423270082CE36 /* SceneDelegate.swift */,
-				9F8FF3062A5423270082CE36 /* ViewController.swift */,
+				9F8FF3172A5423910082CE36 /* PlayingCard.swift */,
+				9F8FF3192A5428910082CE36 /* PlayingCardDeck.swift */,
 				9FB1E6AC2A5C15E6001FFAFF /* PlayingCardView.swift */,
+				9F8FF3062A5423270082CE36 /* ViewController.swift */,
 				9F8FF3082A5423270082CE36 /* Main.storyboard */,
 				9F8FF30B2A5423290082CE36 /* Assets.xcassets */,
 				9F8FF3162A5423510082CE36 /* Supporting Files */,
 				9F8FF3102A5423290082CE36 /* Info.plist */,
-				9F8FF3172A5423910082CE36 /* PlayingCard.swift */,
-				9F8FF3192A5428910082CE36 /* PlayingCardDeck.swift */,
 				9FB1E6B22A5C3B81001FFAFF /* Extensions */,
 			);
 			path = PlayingCard;
