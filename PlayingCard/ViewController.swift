@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var deck = PlayingCardDeck()
     
     @IBOutlet weak var playingCardView: PlayingCardView! {
@@ -32,8 +32,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-
+    
+    
     @IBAction func flipCard(_ sender: UITapGestureRecognizer) {
         switch sender.state {
         case .ended:
